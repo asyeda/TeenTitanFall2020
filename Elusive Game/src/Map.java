@@ -223,6 +223,26 @@ public class Map {
 									}
 								}
 							}
+
+							else if(number[1].equals("Monster")) {
+								if(room.get(i).getMonster() != null) {
+									if(room.get(i).getMonster().getItemDrop() != null) {
+										if(room.get(i).getMonster().getItemDrop().getItemID().equals(number[2])) {
+											room.get(i).getMonster().getItemDrop().setSellValue(Integer.parseInt(number[3]));
+											if(number[4].equals("Weapon")) {
+												room.get(i).getMonster().getItemDrop().setWeapon(true);
+												room.get(i).getMonster().getItemDrop().setDamage(Double.parseDouble(number[5]));
+												break;
+											}
+											else if(number[4].equals("Armor")) {
+												room.get(i).getMonster().getItemDrop().setArmor(true);
+												room.get(i).getMonster().getItemDrop().setDefense(Double.parseDouble(number[5]));
+												break;
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 					
