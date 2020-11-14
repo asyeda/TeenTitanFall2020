@@ -8,10 +8,6 @@ public class Items {
 	private int sellValue;
 	private double defense;
 	private double damage;
-	
-	public void setArmor(boolean armor) {
-		this.armor = armor;
-	}
 
 	public void setWeapon(boolean weapon) {
 		this.weapon = weapon;
