@@ -1,0 +1,12 @@
+M01,8
+M02,15
+M03,6
+M04,19
+M05,20
+M06,17
+M07,16
+M08,7
+M09,10,Troll,50,A short green troll appears from the mist; he takes a swing at you with his club.,Coin,20,HP,1
+M10,11,Skeleton,50,You hear the sound of bones clattering and turn around. A walking skeleton appears to be attacking you.,Coin,15
+M11,12,Bandit,50,The stench of a man who hasn’t bathed in weeks hits you. A bandit approaches you in attempt to extort some gold from you.,Coin,20
+M11,13,Bandit,50,The stench of a man who hasn’t bathed in weeks hits you. A bandit approaches you in attempt to extort some gold from you.,Coin,20
