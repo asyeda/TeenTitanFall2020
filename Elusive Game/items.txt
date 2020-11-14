@@ -20,11 +20,13 @@ Puzzle,A15,Steel Plate Armor,An armor set encased with steel. This armor provide
 NPC,A16,Lesser Knight's Armor,A basic armor set that looks battle worn adorning scars and tears deep in its plating.,N01
 A17,Commoner's Clothes,A set of burlap clothes. They don’t provide much protection and are not very stylish.,1
 A18,Wooden Stick,A wooden stick likely from an oak tree.,1
-AddOn,Room,A02,50,None
+Monster,A00,Your Dad,This is your dad! Not an item!,M04
+AddOn,Monster,A02,50,None
 AddOn,Room,A03,10,Weapon,10
 AddOn,Puzzle,A04,30,None
 AddOn,Puzzle,A05,20,None
 AddOn,Room,A06,40,None
+AddOn,Monster,A09,-1,Armor,50
 AddOn,NPC,A12,40,Weapon,25
 AddOn,NPC,A13,20,Weapon,20
 AddOn,NPC,A14,10,Weapon,15
