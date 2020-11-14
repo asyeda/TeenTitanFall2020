@@ -223,6 +223,7 @@ public class Map {
 									}
 								}
 							}
+
 							else if(number[1].equals("Monster")) {
 								if(room.get(i).getMonster() != null) {
 									if(room.get(i).getMonster().getItemDrop() != null) {
